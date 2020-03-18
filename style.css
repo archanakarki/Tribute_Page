@@ -1,74 +1,75 @@
-*{
+* {
     font-family: 'Lato', sans-serif;
     max-width: 100%;
     padding: 0;
-    margin:0;
+    margin: 0;
 }
 
-body{
+body {
     background-color: #EEEEEE;
     font-size: 16px;
 }
 
-main{
+main {
     padding: 3% 5%;
 }
 
-#title{
+#title {
     text-align: center;
     line-height: 2;
     padding: 4% 0;
 }
 
-#title h1{
+#title h1 {
     font-size: 2.75em;
 }
 
-#img-div{
+#img-div {
     background-color: #FFF;
     padding: 5%;
-    margin:1%;
+    margin: 1%;
     line-height: 1.5;
     text-align: center;
 }
 
-#img-div img{
+#img-div img {
     margin: 1% 0;
     display: block;
 }
 
-#tribute-info{
-padding: 5%;
+#tribute-info {
+    padding: 5%;
 }
 
-#tribute-info h3{
+#tribute-info h3 {
     padding-bottom: 5%;
     text-align: center;
 }
 
-#tribute-info ul{
+#tribute-info ul {
     width: 100%;
-    margin:auto;
+    margin: auto;
 }
 
-#tribute-info li{
+#tribute-info li {
     line-height: 2;
-    margin:1% 0 1% 0;
+    margin: 1% 0 1% 0;
 }
 
-footer{
+footer {
     text-align: center !important;
     font-weight: bold;
 }
-@media (max-width:400px){
-    main{
+
+@media (max-width:400px) {
+    main {
         padding: 4% 5%;
     }
 }
 
-@media (min-width:400px){
-    #tribute-info ul{
-        width:60% !important;
+@media (min-width:400px) {
+    #tribute-info ul {
+        width: 60% !important;
         margin: auto;
     }
 }
